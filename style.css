@@ -1,0 +1,35 @@
+
+
+.header{
+
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.title{
+
+    margin: 16px;
+    padding: 16px;
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 900;
+    font-family: 'roboto';
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    margin: 16px;
+    padding: 16px;
+    gap: 16px;  
+  }
+
+a{
+    color: #F9FAF8;
+     text-decoration: none;
+     font-family: 'roboto';
+
+}
