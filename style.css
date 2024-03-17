@@ -5,8 +5,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .title{
@@ -45,6 +45,13 @@ a{
 
 
 }
+
+.left_side_c1{
+
+    margin-right: 50px;
+
+}
+
 .main_text{
 
     color: #F9FAF8;
@@ -56,8 +63,22 @@ a{
 
 .text{
 
-    color: #F9FAF8;
+    color: #E5E7EB;
     font-size: 18px;
     font-family: 'roboto';
+    margin-right: 20px;
+    margin-bottom: 10px;
+
+}
+
+button{
+    background-color: #3882F6;
+    color: white;
+    padding: 10px 35px;
+    font-size: 18px;
+    font-weight: 900;
+    font-family: 'roboto';
+    border-radius: 10px;
+    border-width: 0;
 
 }
