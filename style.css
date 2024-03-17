@@ -32,7 +32,7 @@ ul{
   }
 
 a{
-    color: #F9FAF8;
+    color: #E5E7EB;
      text-decoration: none;
      font-family: 'roboto';
 
@@ -80,5 +80,43 @@ button{
     font-family: 'roboto';
     border-radius: 10px;
     border-width: 0;
+}
+
+.container_2{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.subcon_2{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+
+.sub_title{
+
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    font-family: 'roboto';
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.info{
+    max-width: 200px;
+}
+
+.container_2 .text{
+    color: #424270;
+    margin: 0;
+}
+
+.container_2 img{
+
+    border-radius: 15px;
+    border: 5px solid #3882F6;
 
 }
