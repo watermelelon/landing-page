@@ -163,19 +163,27 @@ button{
     
     background-color: #3882F6;
     border-radius: 15px;
-    justify-content: center;
+    justify-content:center;
     /*this could be managed more efficiently*/
     margin-left: 150px;
     margin-right: 150px;
     margin-top: 90px;
     margin-bottom: 90px;
 
+    padding-top: 45px;
+    padding-bottom: 45px;
+
+
 }
 
 .container_4 .con4_left{
     flex-direction: column;
     justify-content: flex-start;
+    align-items:flex-start;
+    margin-right: 70px;
 }
+
+
 
 .container_4 .sub_title{
 
@@ -183,6 +191,10 @@ button{
     font-size: 24px;
     font-weight: 900;
     font-family: 'roboto';
+    margin: 0;
+    align-self: first baseline;
+    text-align: left;
+    
 
 }
 
@@ -191,5 +203,10 @@ button{
     color: white;
     font-size: 16px;
     font-family: 'roboto';
+    text-align: left;
 
+}
+
+.container_4 button{
+    border: 2px solid white;
 }
