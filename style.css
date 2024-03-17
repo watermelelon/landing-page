@@ -1,12 +1,12 @@
 
-
-.header{
+.header, .container_1{
 
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 .title{
@@ -17,6 +17,8 @@
     font-size: 24px;
     font-weight: 900;
     font-family: 'roboto';
+    margin-left: 0;
+    padding-left: 0;
 }
 
 ul{
@@ -25,11 +27,37 @@ ul{
     margin: 16px;
     padding: 16px;
     gap: 16px;  
+    /*margin-right: 0;*/
+    padding-right: 0;
   }
 
 a{
     color: #F9FAF8;
      text-decoration: none;
      font-family: 'roboto';
+
+}
+
+.container_1{
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 100px;
+
+
+}
+.main_text{
+
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+    font-family: 'roboto';
+
+}
+
+.text{
+
+    color: #F9FAF8;
+    font-size: 18px;
+    font-family: 'roboto';
 
 }
