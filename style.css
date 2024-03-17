@@ -120,3 +120,76 @@ button{
     border: 5px solid #3882F6;
 
 }
+
+.container_3{
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    flex-direction: column;
+
+    /*this could be managed more efficiently*/
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 50px;
+
+}
+
+.quote{
+
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;align-items: flex-end;
+    font-family: 'roboto';
+    font-style: italic;
+    margin-top: 100px;
+    margin-bottom: 50px;
+
+}
+
+.author{
+    align-self: flex-end;
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: 900;
+    font-family: 'roboto';
+    margin-right: 20px;
+}
+
+
+
+.container_4{
+
+    display: flex;
+    
+    background-color: #3882F6;
+    border-radius: 15px;
+    justify-content: center;
+    /*this could be managed more efficiently*/
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+
+}
+
+.container_4 .con4_left{
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.container_4 .sub_title{
+
+    color: white;
+    font-size: 24px;
+    font-weight: 900;
+    font-family: 'roboto';
+
+}
+
+.container_4 .text{
+
+    color: white;
+    font-size: 16px;
+    font-family: 'roboto';
+
+}
